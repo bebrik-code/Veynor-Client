@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "veynor",
+  "version": "${version}",
+  "name": "Veynor Client",
+  "description": "Client mod with HUD modules, a settings menu and cosmetics. By smerk3r.",
+  "authors": ["smerk3r"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.smerk3r.veynor.VeynorClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
